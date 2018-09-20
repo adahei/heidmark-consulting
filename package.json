@@ -1,0 +1,23 @@
+{
+  "name": "heidmark-consulting",
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@nuxtjs/google-analytics": "^2.0.2",
+    "moment": "^2.22.2",
+    "nuxt": "^1.4.2"
+  },
+  "devDependencies": {
+    "node-sass": "^4.9.3",
+    "sass-loader": "^7.1.0"
+  }
+}

@@ -1,0 +1,23 @@
+@import 'variables';
+@import 'extend';
+@import 'fonts';
+@import 'typography';
+@import 'page';
+@import 'pageHeader';
+@import 'pageFooter';
+* {
+  box-sizing: border-box;
+  &::before, &::after {
+    box-sizing: inherit;
+  }
+}
+
+html, body {
+  padding: 0;
+  margin: 0;
+}
+
+@page {
+  size: auto;
+  margin: 0cm 1cm;
+}
