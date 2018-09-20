@@ -27,6 +27,7 @@
       <li><a href="https://momentjs.com/" target="_blank">momentjs</a> - För att hantera tid, datum osv.</li>
       <li><a href="https://matteogabriele.gitbooks.io/vue-analytics/content/" target="_blank">vue-analytics</a> - För implementation av Google Analytics.</li>
     </ul>
+    <p>Webbplatsen ligger uppe som ett projekt i <a href="https://github.com/adahei/heidmark-consulting" taget="_blank">GitHub</a>.</p>
   </main>
 </template>
 
