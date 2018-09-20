@@ -16,6 +16,15 @@
 
     <h2>Tillgänglighet</h2>
     <p>Sidan är optimerad för skärmläsare enligt standard från <a href="https://www.w3.org/TR/using-aria/" target="_blank"><abbr title="Accessible Rich Internet Applications">ARIA</abbr></a>.</p>
+    <p>Jag har optimerat laddtider med hjälp av cachning, minifiering och andra knep för att få sidan så snabb och komprimerad som möjligt.</p>
+    <figure>
+      <picture>
+        <source media="(max-width: 599px)" srcset="@/assets/score_sm.png"/>
+        <source media="(max-width: 600px)" srcset="@/assets/score_lg.png"/>
+        <img src="@/assets/score_lg.png" title="Resultat från Goole Lighthouse" alt="Resultat från Goole Lighthouse"/>
+      </picture>
+      <figcaption>Resultat från <a href="https://developers.google.com/web/tools/lighthouse/">Google Lighthouse</a>.</figcaption>
+    </figure>
 
     <h2>Ramverk och tekniker</h2>
     <p>
