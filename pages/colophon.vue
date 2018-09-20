@@ -51,10 +51,10 @@ export default {
       { name: 'description', content: 'Adam Heidmark är frilansande frontendutvecklare och UX-designer verksam i Stockholm med över 7 års erfarenhet.' },
       { property: 'og:title', content: 'Colophon | Heidmark Consulting - Webbutveckling, Frontend och UX' },
       { property: 'og:description', content: 'Adam Heidmark är frilansande frontendutvecklare och UX-designer verksam i Stockholm med över 7 års erfarenhet.' },
-      { property: 'og:url', content: 'https://heidmark.se/colophon' }
+      { property: 'og:url', content: 'https://heidmark.se/colophon/' }
     ],
     link: [
-      { rel: 'canonical', href: 'https://heidmark.se/colophon' },
+      { rel: 'canonical', href: 'https://heidmark.se/colophon/' },
     ]
   }
 }
