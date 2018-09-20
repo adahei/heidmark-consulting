@@ -14,19 +14,19 @@
     </ul>
     <p>Samtliga typsnitt är internt hostade för att snabba upp nedladdningen samt för att undvika externa resurser.</p>
 
-    <h2>Tillgänglighet</h2>
+    <h2>Tillgänglighet &amp; optimering</h2>
     <p>Sidan är optimerad för skärmläsare enligt standard från <a href="https://www.w3.org/TR/using-aria/" rel="noopener noreferrer"><abbr title="Accessible Rich Internet Applications">ARIA</abbr></a>.</p>
     <p>Jag har optimerat laddtider med hjälp av cachning, minifiering och andra knep för att få sidan så snabb och komprimerad som möjligt.</p>
     <figure>
       <picture>
-        <source media="(max-width: 499px)" srcset="@/assets/score_sm.png"/>
-        <source media="(max-width: 500px)" srcset="@/assets/score_lg.png"/>
+        <source media="(max-width: 299px)" srcset="@/assets/score_sm.png"/>
+        <source media="(max-width: 300px)" srcset="@/assets/score_lg.png"/>
         <img src="@/assets/score_lg.png" title="Resultat från Goole Lighthouse" alt="Resultat från Goole Lighthouse"/>
       </picture>
       <figcaption>Resultat från <a href="https://developers.google.com/web/tools/lighthouse/">Google Lighthouse</a>.</figcaption>
     </figure>
 
-    <h2>Ramverk och tekniker</h2>
+    <h2>Ramverk &amp; tekniker</h2>
     <p>
       Sidan är skriven med hjälp av ramverket <a href="https://vuejs.org/" rel="noopener noreferrer">VueJS</a> och för rendera sidan från servern (<abbr title="Server side render">SSR</abbr>) används <a href="https://nuxtjs.org/" rel="noopener noreferrer">NUXT</a>.
       All <abbr title="Cascading Style Sheets">CSS</abbr> är kompilerad från <abbr title="Syntactically Awesome Style Sheets">SCSS</abbr> och är är <a href="http://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fheidmark.se&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=sv" rel="noopener noreferrer">validerad och godkännd</a>.
