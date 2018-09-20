@@ -5,6 +5,7 @@ dist/
 npm-debug.log*
 
 # Editor directories and files
+.htaccess
 .idea
 .vscode
 *.suo

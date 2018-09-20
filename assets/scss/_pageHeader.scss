@@ -27,15 +27,17 @@
       text-decoration: none;
       color: $light;
       padding: .5rem;
-      transition: all .2s ease-in-out;
+      transition: all .15s ease-in-out;
       text-transform: uppercase;
       letter-spacing: -.1em;
-      font-weight: bold;
+      font-weight: normal;
       &:hover, &:focus {
-        transform: scale3d(1.1);
+        transform: scale(1.2);
       }
       &.nuxt-link-exact-active {
         color: $light;
+        font-weight: bold;
+        transform: scale(1.2);
       }
     }
   }
